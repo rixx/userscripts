@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.1
+// @version      1.0.2
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -172,24 +172,34 @@ html {
 }
 
 .content-warning {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: flex-end;
+  color: white;
+  position: relative;
   p {
     margin-bottom: 0;
+    text-indent: 70px;
   }
-  button span {
-    visibility: hidden;
-    width: 70px;
-    height: 20px;
-    display: block;
-    overflow: hidden;
-    text-align: left;
-    &:before {
-      content: "▸ Subject:";
+  button.link-button {
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    span {
+      visibility: hidden;
+      width: 70px;
+      height: 20px;
+      margin-top: 8px;
+      margin-left: 12px;
       display: block;
-      visibility: visible;
+      overflow: hidden;
+      text-align: left;
+      &:before {
+        content: "▸ Subject:";
+        display: block;
+        visibility: visible;
+      }
     }
   }
 }
