@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.2
+// @version      1.0.3
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -57,8 +57,10 @@ html {
   display: none;
 }
 
+.column-back-button,
 .column-header.active .column-header__icon,
 .column-header__back-button,
+.drawer__header a,
 .hashtag-bar a,
 .notification-ungrouped--direct .notification-ungrouped__header,
 .notification-ungrouped--direct .status__prepend,
@@ -68,7 +70,18 @@ html {
 .status__wrapper-direct .status__prepend,
 .timeline-hint a {
   &,
-  &:hover {
+  &:hover, &:active, &:focus {
+    color: var(--color-links);
+  }
+}
+
+a.status-card:active,
+a.status-card:focus,
+a.status-card:hover {
+  .status-card__author,
+  .status-card__description,
+  .status-card__host,
+  .status-card__title{
     color: var(--color-links);
   }
 }
@@ -99,6 +112,13 @@ html {
 .column .column-header {
   border-bottom: 1px solid var(--color-background-lighter);
   box-shadow: 0 1px 2px rgba(255, 255, 255, 0.07);
+}
+
+
+.edit-indicator__content a,
+.reply-indicator__content a,
+.status__content a {
+  color: white;
 }
 
 .account .account__display-name,
