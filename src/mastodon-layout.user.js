@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.5
+// @version      1.0.6
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -158,10 +158,7 @@ a.status-card:hover {
 .trends__item__name a,
 .trends__item__name,
 :link {
-  /* dirty specificity hack */
-  & {
-    color: var(--color-text-mid);
-  }
+  color: var(--color-text-mid);
 }
 
 .compose-form__actions .icon-button.disabled,
