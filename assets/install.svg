@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="35.970318mm"
+   height="11.119632mm"
+   viewBox="0 0 35.970318 11.119632"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-57.089748,-26.568794)">
+    <rect
+       style="fill:#22bf29;fill-opacity:1;stroke-width:10.4525;stroke-linecap:round;paint-order:markers stroke fill"
+       id="rect1-9"
+       width="35.970318"
+       height="11.119632"
+       x="57.089748"
+       y="26.568794"
+       rx="5.9216738"
+       ry="6.0826426" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.20005px;line-height:2.66668px;font-family:'Erikas Farbband';-inkscape-font-specification:'Erikas Farbband, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0.264583px;fill:#ffffff;fill-opacity:1;stroke-width:12;stroke-linecap:round;paint-order:markers stroke fill"
+       x="61.771935"
+       y="33.770222"
+       id="text1-6"><tspan
+         id="tspan2"
+         x="61.771935"
+         y="33.770222">install</tspan></text>
+  </g>
+</svg>
