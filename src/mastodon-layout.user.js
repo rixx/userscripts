@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.4
+// @version      1.0.5
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -136,7 +136,7 @@ a.status-card:hover {
 .compose-form .dropdown-button
 .compose-form .icon-button,
 .compose-form__actions .icon-button,
-.drawer__tab,
+.drawer__header a.drawer__tab,
 .dropdown-button,
 .dropdown-button__label,
 .getting-started__trends h4 a,
@@ -158,7 +158,10 @@ a.status-card:hover {
 .trends__item__name a,
 .trends__item__name,
 :link {
-  color: var(--color-text-mid);
+  /* dirty specificity hack */
+  & {
+    color: var(--color-text-mid);
+  }
 }
 
 .compose-form__actions .icon-button.disabled,
@@ -184,7 +187,7 @@ a.status-card:hover {
 }
 .icon-button.star-icon {
   &:active, &:focus, &:hover,
-  &.a:active, &.a:focus, &.a:hover {
+  &.active, &.active:active, &.active:focus, &.active:hover {
     color: #ca8f04;
   }
 }
