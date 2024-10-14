@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.0
+// @version      1.0.1
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -39,6 +39,11 @@ const css = `
   --background-border-color: var(--color-background-light);
 }
 
+
+html {
+  scrollbar-color: var(--color-text-muted) var(--color-background-light);
+}
+
 .layout-multiple-columns .column,
 .layout-multiple-columns .drawer {
   flex: 1 1 auto;
@@ -52,6 +57,7 @@ const css = `
   display: none;
 }
 
+.column-header.active .column-header__icon,
 .column-header__back-button,
 .hashtag-bar a,
 .notification-ungrouped--direct .notification-ungrouped__header,
@@ -74,10 +80,12 @@ const css = `
 
 .column > .scrollable,
 .column-subheading,
+.search__popout,
 #tabs-bar__portal {
   background: var(--color-background);
 }
 
+.compose-form__warning,
 .account__section-headline,
 .column .column-header,
 .column .notification__filter-bar,
@@ -101,7 +109,10 @@ const css = `
 .column-subheading,
 .compose-form .dropdown-button
 .compose-form .icon-button,
+.compose-form__actions .icon-button,
 .drawer__tab,
+.dropdown-button,
+.dropdown-button__label,
 .getting-started__trends h4 a,
 .icon-button,
 .link-button,
@@ -111,8 +122,10 @@ const css = `
 .notification__filter-bar a,
 .notification__filter-bar button,
 .reply-indicator__content,
+.search__icon .icon,
 .search__input,
 .search__popout h4,
+.search__popout .icon-button,
 .search__popout__menu__item,
 .status__prepend a,
 .timeline-hint,
@@ -189,7 +202,8 @@ const css = `
 .button,
 .dropdown-button.active,
 .privacy-dropdown__option.active,
-.privacy-dropdown__option:focus {
+.privacy-dropdown__option:focus,
+.search__popout__menu__item:hover {
   background-color: var(--color-links-button);
   color: white;
   &:hover {
