@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.3
+// @version      1.0.4
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -61,9 +61,12 @@ html {
 .column-header.active .column-header__icon,
 .column-header__back-button,
 .drawer__header a,
+.edit-indicator__content a.unhandled-link,
 .hashtag-bar a,
+.icon-button.active,
 .notification-ungrouped--direct .notification-ungrouped__header,
 .notification-ungrouped--direct .status__prepend,
+.reply-indicator__content a.unhandled-link,
 .status__content a,
 .status__content a.unhandled-link,
 .status__wrapper-direct .notification-ungrouped__header,
@@ -93,7 +96,9 @@ a.status-card:hover {
 
 .column > .scrollable,
 .column-subheading,
+.compose-form .autosuggest-textarea__textarea,
 .compose-form__highlightable,
+.compose-form .spoiler-input__input,
 .search__popout,
 #tabs-bar__portal {
   background: var(--color-background);
@@ -178,7 +183,8 @@ a.status-card:hover {
   }
 }
 .icon-button.star-icon {
-  &:active, &:focus, &:hover {
+  &:active, &:focus, &:hover,
+  &.a:active, &.a:focus, &.a:hover {
     color: #ca8f04;
   }
 }
