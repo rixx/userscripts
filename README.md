@@ -13,4 +13,17 @@ install them from their URL in order to get updates.
 
 Navigate between chapters with ← →
 
-<a href="https://github.com/rixx/userscripts/blob/main/src/ao3-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/ao3-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install"></a>
+<a href="https://github.com/rixx/userscripts/blob/main/src/ao3-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/ao3-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+
+### fanfiction.net Arrow Navigation
+
+Navigate between chapters with ← →
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/fanfiction-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/fanfiction-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+### Github UI Tweaks
+
+GitHub UI tweaks, constantly added and removed as the UI changes.
+
+- Change how the workflow run page looks, because the default order is stupid. The 
