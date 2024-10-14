@@ -80,6 +80,7 @@ html {
 
 .column > .scrollable,
 .column-subheading,
+.compose-form__highlightable,
 .search__popout,
 #tabs-bar__portal {
   background: var(--color-background);
@@ -135,6 +136,7 @@ html {
   color: var(--color-text-mid);
 }
 
+.compose-form__actions .icon-button.disabled,
 .detailed-status__meta a,
 .detailed-status__meta,
 .notification-group--follow .notification-group__icon,
@@ -190,7 +192,7 @@ html {
       visibility: hidden;
       width: 70px;
       height: 20px;
-      margin-top: 8px;
+      margin-top: 7px;
       margin-left: 12px;
       display: block;
       overflow: hidden;
@@ -210,6 +212,7 @@ html {
 }
 
 .button,
+.compose-form__actions .icon-button.active,
 .dropdown-button.active,
 .privacy-dropdown__option.active,
 .privacy-dropdown__option:focus,
