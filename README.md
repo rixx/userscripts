@@ -10,5 +10,5 @@ install them from their URL in order to get updates.
 ## Scripts
 
 - AO3 Arrow Navigation: Navigate between chapters with ← →
-  [![Source](https://github.com/rixx/userscripts/blob/master/assets/source.png)](https://github.com/rixx/userscripts/blob/main/ao3-arrows.user.js)
-  [![Install](https://github.com/rixx/userscripts/blob/master/assets/install.png)](https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/ao3-arrows.user.js)
+  [![Source](https://github.com/rixx/userscripts/blob/main/assets/source.svg)](https://github.com/rixx/userscripts/blob/main/src/ao3-arrows.user.js)
+  [![Install](https://github.com/rixx/userscripts/blob/main/assets/install.svg)](https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/ao3-arrows.user.js)
