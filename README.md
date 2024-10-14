@@ -9,6 +9,44 @@ install them from their URL in order to get updates.
 
 ## Scripts
 
+### Table Sorter
+
+Make any table sortable. Adds a small icon to the top left corner of a table, and if you click it, adds sort buttons to
+every column header.
+
+Tries to be smart: Doesn't add this if it can't find identifiable table headers (thus hopefully not showing up when
+people use tables for page layout), and tries to check if columns are numerical in order to sort correctly.
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/table-sort.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/table-sort.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+
+### chaos.social tweaks
+
+Mostly UI changes to the default Mastodon UI, bringing back the old matte blue look rather than the aggressive dark
+violet.
+
+Also adds a redirect from non-deck links to /deck.
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/mastodon-layout.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/mastodon-layout.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+
+### Github UI Tweaks
+
+GitHub UI tweaks, constantly added and removed as the UI changes.
+
+- Change how the workflow run page looks, because the default order is stupid. The new order is: Run summary, individual
+  job summaries, annotations, everything else. Hide the actions graph entirely.
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/github-ui.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/github-ui.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+
+### man.openbsd.org Table of Contents
+
+Adds a table of contents to man pages hosted on man.openbsd.org.
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/man-page-toc.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/man-page-toc.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
+
 ### AO3 Arrow Navigation
 
 Navigate between chapters with ← →
@@ -22,8 +60,11 @@ Navigate between chapters with ← →
 
 <a href="https://github.com/rixx/userscripts/blob/main/src/fanfiction-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/fanfiction-arrows.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
 
-### Github UI Tweaks
 
-GitHub UI tweaks, constantly added and removed as the UI changes.
+### Goodreads–Library Genesis Links
 
-- Change how the workflow run page looks, because the default order is stupid. The 
+Link to a LibGen search on Goodreads book pages and book tiles. Also adds a button to copy the Goodreads book ID,
+because I need this for my [book blog](https://books.rixx.de).
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/goodreads-libgen.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.svg" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/goodreads-libgen.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.svg" alt="Install" height="30px" alt="Install"></a>
+
