@@ -8,7 +8,7 @@
 // @grant        none
 // @author       Tobias 'rixx' Kunze
 // @homepageURL  https://github.com/rixx/dotfiles
-// @downloadURL  https://github.com/rixx/dotfiles/raw/refs/heads/master/firefox/userscripts/ao3-arrows.js
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/ao3-arrows.user.js
 // ==/UserScript==
 
 // Add global keybinds for arrow-right and arrow-left

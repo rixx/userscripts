@@ -1,8 +1,14 @@
 // ==UserScript==
-// @name     goodreads-libgen
-// @include https://www.goodreads.com/*
-// @version  1
-// @grant    none
+// @name         LibGen Search on Goodreads
+// @namespace    https://rixx.de
+// @match        https://www.goodreads.com/*
+// @version      1.0.0
+// @description  Add a LibGen search link to Goodreads book pages
+// @icon         https://www.goodreads.com/favicon.ico
+// @grant        none
+// @author       Tobias 'rixx' Kunze
+// @homepageURL  https://github.com/rixx/dotfiles
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/goodreads-libgen.user.js
 // ==/UserScript==
 const libgenUrl = 'https://libgen.is/fiction/?sort=filesize:a&language=English&format=epub&q='
 

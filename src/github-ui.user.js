@@ -1,8 +1,14 @@
 // ==UserScript==
-// @name     github-ui
-// @include https://github.com/*
-// @version  1
-// @grant    none
+// @name         GitHub UI Tweaks
+// @namespace    https://rixx.de
+// @match        https://github.com/*
+// @version      1.0.0
+// @description  GitHub UI tweaks, constantly added and removed as the UI changes.
+// @icon         https://github.githubassets.com/favicons/favicon.svg
+// @grant        none
+// @author       Tobias 'rixx' Kunze
+// @homepageURL  https://github.com/rixx/dotfiles
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/github-ui.user.js
 // ==/UserScript==
 
 

@@ -1,9 +1,15 @@
 // ==UserScript==
-// @name     fanfiction-arrows
-// @include https://www.fanfiction.net/*
-// @include https://fanfiction.net/*
-// @version  1
-// @grant    none
+// @name         fanfiction.net Arrow Navigation
+// @namespace    https://rixx.de
+// @match        https://www.fanfiction.net/*
+// @match        https://fanfiction.net/*
+// @version      1.0.0
+// @description  Adds arrow key navigation to fanfiction.net works
+// @icon         https://www.fanfiction.net/static/icons3/ff-icon-192.png
+// @grant        none
+// @author       Tobias 'rixx' Kunze
+// @homepageURL  https://github.com/rixx/dotfiles
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/fanfiction-arrows.user.js
 // ==/UserScript==
 
 // Add global keybinds for arrow-right and arrow-left

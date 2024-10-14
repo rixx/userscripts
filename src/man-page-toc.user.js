@@ -1,8 +1,14 @@
 // ==UserScript==
-// @name     man-page-toc
-// @include https://man.openbsd.org/*
-// @version  1
-// @grant    none
+// @name         Table of Contents for man.openbsd.org
+// @namespace    https://rixx.de
+// @match        https://man.openbsd.org/*
+// @version      1.0.0
+// @description  Adds a table of contents to man pages hosted on man.openbsd.org.
+// @icon         https://www.openbsd.org/favicon.ico
+// @grant        none
+// @author       Tobias 'rixx' Kunze
+// @homepageURL  https://github.com/rixx/dotfiles
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/man-page-toc.user.js
 // ==/UserScript==
 function buildContents () {
   let headings = document.querySelectorAll(".manual-text h1")

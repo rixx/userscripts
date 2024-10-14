@@ -1,8 +1,14 @@
 // ==UserScript==
-// @name        Sort tables
-// @version     1
-// @description Make tables sortable
-// @match       *://*/*
+// @name         Make any table sortable
+// @namespace    https://rixx.de
+// @match        *://*/*
+// @version      1.0.0
+// @description  Adds a small icon to the top left corner of a table, and if you click it, adds sort buttons to every column header.
+// @icon         https://www.shareicon.net/download/2016/11/14/852384_sort.svg
+// @grant        none
+// @author       Tobias 'rixx' Kunze
+// @homepageURL  https://github.com/rixx/dotfiles
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/table-sort.user.js
 // ==/UserScript==
 
 const icons = {
