@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.6
+// @version      1.0.7
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -36,12 +36,17 @@ const css = `
   --color-text-muted: color-mix(in hsl, var(--color-text-mid), black 30%);
   --color-background-lighter: #4a5266;
 
+  --background-color: var(--color-background);
   --background-border-color: var(--color-background-light);
 }
 
 
 html {
   scrollbar-color: var(--color-text-muted) var(--color-background-light);
+}
+
+.admin-wrapper .content {
+  background-color: var(--color-background-light);
 }
 
 .layout-multiple-columns .column,
@@ -57,11 +62,16 @@ html {
   display: none;
 }
 
+.account__domain-pill,
+.account__header__bio .account__header__fields a,
+.account-role,
+.admin-wrapper .sidebar ul .simple-navigation-active-leaf a,
 .column-back-button,
 .column-header.active .column-header__icon,
 .column-header__back-button,
 .drawer__header a,
 .edit-indicator__content a.unhandled-link,
+.filters .filter-subset a.selected,
 .hashtag-bar a,
 .icon-button.active,
 .notification-ungrouped--direct .notification-ungrouped__header,
@@ -87,6 +97,10 @@ a.status-card:hover {
   .status-card__title{
     color: var(--color-links);
   }
+}
+
+.account-role {
+  border-color: var(--color-links);
 }
 
 .status-card__title {
@@ -127,20 +141,28 @@ a.status-card:hover {
 }
 
 .account .account__display-name,
+.account__header__bio .account__header__fields dt,
+.account__header__bio .account__header__fields dd,
+.account__header__extra__links a,
+.account__header__tabs__name h1 small,
 .account__section-headline a,
 .account__section-headline button,
+.admin-wrapper .sidebar ul a,
 .character-counter,
 .column-header .column-header__back-button,
 .column-header__button,
+.column-link,
 .column-subheading,
 .compose-form .dropdown-button
 .compose-form .icon-button,
 .compose-form__actions .icon-button,
-.drawer__header a.drawer__tab,
+.drawer__header a.drawer__tab svg,
 .dropdown-button,
 .dropdown-button__label,
+.filters .filter-subset a,
 .getting-started__trends h4 a,
 .icon-button,
+.inline-name-tag, .name-tag, a.inline-name-tag, a.name-tag,
 .link-button,
 .link-footer p a,
 .link-footer p,
@@ -148,12 +170,20 @@ a.status-card:hover {
 .notification__filter-bar a,
 .notification__filter-bar button,
 .reply-indicator__content,
+.report-card__summary__item__assigned,
+.report-card__summary__item__assigned:hover,
+.report-card__summary__item__reported-by,
+.report-card__summary__item__reported-by:hover,
+.report-card__summary__item__content a,
+.report-card__summary__item__content a:hover,
+.report-card__profile__stats,
 .search__icon .icon,
 .search__input,
 .search__popout h4,
 .search__popout .icon-button,
 .search__popout__menu__item,
 .status__prepend a,
+.status-card,
 .timeline-hint,
 .trends__item__name a,
 .trends__item__name,
@@ -170,6 +200,7 @@ a.status-card:hover {
 .notification-group__embedded-status__account,
 .notification-group__main__additional-content,
 .notification-ungrouped__header,
+.status__display-name,
 .status__prepend,
 .status__relative-time {
   color: var(--color-text-muted);
@@ -242,7 +273,10 @@ a.status-card:hover {
 .dropdown-button.active,
 .privacy-dropdown__option.active,
 .privacy-dropdown__option:focus,
-.search__popout__menu__item:hover {
+.search__popout__menu__item:hover,
+.simple_form .block-button,
+.simple_form .button,
+.simple_form button {
   background-color: var(--color-links-button);
   color: white;
   &:hover {
@@ -276,6 +310,13 @@ a.status-card:hover {
 .notification__filter-bar a.active::before,
 .notification__filter-bar button.active::before {
   background: var(--color-text-mid);
+}
+
+.filters .filter-subset a {
+  border-bottom-color: var(--color-background-light);
+}
+.filters .filter-subset a.selected {
+  border-bottom-color: var(--color-links);
 }
 
 .trends__item__sparkline path:first-child {
