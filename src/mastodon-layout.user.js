@@ -2,7 +2,7 @@
 // @name         Mastodon Tweaks for chaos.social
 // @namespace    https://rixx.de
 // @match        https://chaos.social/*
-// @version      1.0.7
+// @version      1.0.8
 // @description  Classy Mastodon look for chaos.social.
 // @icon         https://raw.githubusercontent.com/chaossocial/custom/refs/heads/master/images/logo.svg
 // @grant        none
@@ -74,6 +74,7 @@ html {
 .filters .filter-subset a.selected,
 .hashtag-bar a,
 .icon-button.active,
+.notification-bar-action,
 .notification-ungrouped--direct .notification-ungrouped__header,
 .notification-ungrouped--direct .status__prepend,
 .reply-indicator__content a.unhandled-link,
@@ -191,6 +192,7 @@ a.status-card:hover {
   color: var(--color-text-mid);
 }
 
+.autosuggest-account .display-name__account,
 .compose-form__actions .icon-button.disabled,
 .detailed-status__meta a,
 .detailed-status__meta,
@@ -268,6 +270,7 @@ a.status-card:hover {
   font-size: 16px;
 }
 
+.autosuggest-textarea__suggestions__item.selected,
 .button,
 .compose-form__actions .icon-button.active,
 .dropdown-button.active,
