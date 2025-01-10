@@ -157,6 +157,8 @@ a.status-card:hover {
 .compose-form .dropdown-button
 .compose-form .icon-button,
 .compose-form__actions .icon-button,
+.detailed-status__display-name,
+.detailed-status__meta .animated-number,
 .drawer__header a.drawer__tab svg,
 .dropdown-button,
 .dropdown-button__label,
@@ -311,11 +313,22 @@ a.status-card:hover {
   padding: 8px;
 }
 
+
+.account__section-headline a,
+.account__section-headline button,
+.notification__filter-bar a,
+.notification__filter-bar button {
+  padding: 10px 0;
+}
 .account__section-headline a.active::before,
 .account__section-headline button.active::before,
 .notification__filter-bar a.active::before,
 .notification__filter-bar button.active::before {
   background: var(--color-text-mid);
+}
+.icon {
+  height: 20px;
+  width: 20px;
 }
 
 .filters .filter-subset a {
