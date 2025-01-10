@@ -68,3 +68,8 @@ because I need this for my [book blog](https://books.rixx.de).
 
 <a href="https://github.com/rixx/userscripts/blob/main/src/goodreads-libgen.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.png" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/goodreads-libgen.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.png" alt="Install" height="30px" alt="Install"></a>
 
+### Reddit Auto Translation Remover
+
+Removes ?tl=… parameters from Reddit URLs, because I look for the things I want to find, not for auto-translated drivel.
+
+<a href="https://github.com/rixx/userscripts/blob/main/src/reddit-auto-translation.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/source.png" height="30px" alt="Source"></a> <a href="https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/reddit-auto-translation.user.js"><img src="https://github.com/rixx/userscripts/blob/main/assets/install.png" alt="Install" height="30px" alt="Install"></a>

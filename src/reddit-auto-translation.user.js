@@ -8,7 +8,7 @@
 // @grant        none
 // @author       Tobias 'rixx' Kunze
 // @homepageURL  https://github.com/rixx/userscripts
-// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/reddit-auto-translation.js
+// @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/reddit-auto-translation.user.js
 // @run-at       document-start
 // ==/UserScript==
 
