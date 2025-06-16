@@ -2,7 +2,7 @@
 // @name         LibGen Search on Goodreads
 // @namespace    https://rixx.de
 // @match        https://www.goodreads.com/*
-// @version      1.0.0
+// @version      1.1.0
 // @description  Add a LibGen search link to Goodreads book pages
 // @icon         https://www.goodreads.com/favicon.ico
 // @grant        none
@@ -10,7 +10,7 @@
 // @homepageURL  https://github.com/rixx/dotfiles
 // @downloadURL  https://raw.githubusercontent.com/rixx/userscripts/refs/heads/main/src/goodreads-libgen.user.js
 // ==/UserScript==
-const libgenUrl = 'https://libgen.is/fiction/?sort=filesize:a&language=English&format=epub&q='
+const libgenUrl = 'https://libgen.li/index.php?res=100&covers=on&filesuns=all&curtab=f&order=filesize&ordermode=asc&req='
 
 const getUrl = (title, author) => {
     title = title.replace('…', '') + ' ' + author
