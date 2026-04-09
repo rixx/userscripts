@@ -19,10 +19,12 @@ document.addEventListener('keydown', (event) => {
         return
     }
     if (event.key === 'ArrowRight') {
-        document.querySelector('li.chapter.next a').click()
+        const next = document.querySelector('li.chapter.next a') || document.querySelector('dl.work.meta.group dd.series a.next')
+        if (next) next.click()
     }
     if (event.key === 'ArrowLeft') {
-        document.querySelector('li.chapter.previous a').click()
+        const prev = document.querySelector('li.chapter.previous a') || document.querySelector('dl.work.meta.group dd.series a.previous')
+        if (prev) prev.click()
     }
 })
 
