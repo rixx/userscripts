@@ -4,6 +4,7 @@
 // @match        https://support.rixx.de/*
 // @version      1.1.0
 // @description  Add customer context link to Zammad tickets from pretalx
+// @icon         https://raw.githubusercontent.com/zammad/zammad/refs/heads/develop/logo.svg
 // @grant        none
 // @author       Tobias 'rixx' Kunze
 // @homepageURL  https://github.com/rixx/userscripts
